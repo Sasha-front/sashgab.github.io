@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+::-webkit-scrollbar{
+  width: 10px;   
+}
+
+::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 6px; 
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-image: url(../img/back.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+  .general {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    vertical-align: middle;
+    margin: 50px auto;
+    flex-wrap: wrap;
+  }
+
+  .stars {
+      width: 300px;
+      height: 400px;
+      border-radius: 10px;
+      margin-right: 10px;
+  }
+
+  .camellias {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .jene-eyre {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+
+  .items {
+      padding: 15px 15px 15px 25px;
+      margin: 30px 0;
+  }
+
+  .item_1 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+  .item_2 {
+      background-color: white;
+      border-radius: 10px;
+      text-align: center;
+  }
+
+  .item_3 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+    .item_4 {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.items a {
+    
+  padding: 10px;
+  border-radius: 8px;
+  border: white;
+  background-color: rgb(148, 0, 148);
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.items a:hover {
+    background-color: white;
+    color: rgb(204, 0, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.items h4 {
+    font-size: 18px;
+    color: #ae00ff;
+    margin-bottom: 15px;
+}
